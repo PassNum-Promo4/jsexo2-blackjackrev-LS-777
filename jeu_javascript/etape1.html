@@ -1,0 +1,107 @@
+<html lang="fr">
+
+  <head>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>0-10 war Game</title>
+
+
+    <link href="master.css" rel="stylesheet">
+    <script src="blackJack.js"></script>
+
+  </head>
+
+  <body>
+
+
+      <header class="entete">
+          <h1 class "entete_title"> 0 to 10 - Survival to the fittest </h1>
+          <img class="entete_img1" src="img/de.png" alt="Black dice">
+          <img class="entete_img2" src="img/de2.png" alt="Black dice">
+      </header>
+
+      <div class= "main">
+      <p> Celui-qui tire le plus grand nombre gagne la partie ! </p>
+
+
+      <form class ="main__window">
+
+        <fieldset class="main__window__part1">
+
+            <legend>Vous</legend>
+            <div>
+                <label class="main__window__label" for="userPickNumber">Choisir un nombre de 1 à 10:</label>
+                <input type="number" step="1" value="1" min="1" max="10" id="nombre_utilisateur" required/>
+            </div>
+
+            <div>
+                <input type="submit" name="send" value="Envoyer ">
+                <input type="reset" name="cancel" value=" Annuler ">
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+                <legend>Ordinateur</legend>
+              <div>
+                <label class="main__window__label2" for="machinePickNumber">A mon Tour</label>
+              </div>
+
+              <div>
+                <input type="submit" name="generate" value="Générer">
+              </div>
+
+
+        </fieldset>
+
+
+
+      </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="row m-1 align-items-center bg-dark text-white">
+
+
+
+
+
+  </footer>
+
+
+
+
+
+
+
+
+
+  </body>
+
+
+
+</html>
